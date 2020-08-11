@@ -9,9 +9,9 @@ Enter no.of rows:
 
 import java.util.*;
 
-class DArray{
+class pattern1{
     int arr[][],i,j,n;
-    DArray(int x){
+    pattern1(int x){
         n=x;
         //initialize arr
         arr=new int[n][n];
@@ -47,7 +47,7 @@ class TwoDArray{
         System.out.println("Enter no.of rows:");
         Scanner sc=new Scanner(System.in);
         n=sc.nextInt();
-        DArray d=new DArray(n);
+        pattern1 d=new pattern1(n);
         d.pattern();
         d.print2D();
     }

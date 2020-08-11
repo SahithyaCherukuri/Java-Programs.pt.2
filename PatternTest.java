@@ -12,10 +12,10 @@ Enter no.of rows:
 
 import java.util.*;
 
-class DArray{
+class PatterTest{
         int i,j,n;
         char arr[][];
-        DArray(int n){
+    PatterTest(int n){
             arr=new char[n][n];
             this.n=n;
         }
@@ -40,7 +40,7 @@ class PatternTest{
         System.out.println("Enter no.of rows:");
         Scanner sc=new Scanner(System.in);
         n=sc.nextInt();
-        DArray d=new DArray(n);
+        PatterTest d=new PatterTest(n);
         d.pattern();
     }
 }
