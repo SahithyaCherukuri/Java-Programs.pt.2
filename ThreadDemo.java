@@ -1,7 +1,7 @@
 class ThreadDemo1{
 	public void run(){
 		for(int i=0;i<10;i++){
-			System.out.println("welcome to multithreading")
+			System.out.println("welcome to multithreading");
 		}
 	}
 }
@@ -11,7 +11,7 @@ class ThreadDemo2{
 class Test{
 	public static void main(String[] args){
 		//System.out.println();
-		ThreadDemo1=new ThreadDe
+		ThreadDemo1 td =new ThreadDemo1();
 	}
 }
 //premption or context switch is snatching away the cpu from one process to another by OS
